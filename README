@@ -3,8 +3,7 @@ $ docker run -d -p 5672:5672 rabbitmq
 
 Инициализируем проект и устанавливаем NPM-пакет micromq:
 $ npm init -y
-$ npm i micromq, dotenv, log4js
-
+$ npm i
 
 Открывыем три терминала и вводим следующие команды:
 $ node gateway.js
